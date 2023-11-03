@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 48
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 414
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: AudioMixerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -147,17 +147,17 @@ MonoBehaviour:
     y: 629
     width: 1506
     height: 318
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 20}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 4
+  m_Selected: 4
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 49
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 50
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,7 +427,7 @@ MonoBehaviour:
       oldMaxSizes: 
       oldSplitSize: 0
     m_HorizontalSplitter:
-      ID: 617
+      ID: 170
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes:
@@ -1251,9 +1251,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 885d0000
-      m_LastClickedID: 23944
-      m_ExpandedIDs: e4f6ffff32f7ffffccf8ffff30fbffff885d0000
+      m_SelectedIDs: ec5b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36f7ffff84f7ffff1ef9ffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1536,9 +1536,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.127565, y: 0.8012819, z: -7.5673075}
+    m_Target: {x: 3.8772883, y: 5.432638, z: -4.7260313}
     speed: 2
-    m_Value: {x: 10.127565, y: 0.8012819, z: -7.5673075}
+    m_Value: {x: 3.8772883, y: 5.432638, z: -4.7260313}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1587,11 +1587,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.22817433, y: 0.04145198, z: -0.009742798, w: 0.9727126}
     speed: 2
-    m_Value: {x: 0.2296278, y: 0.04143635, z: -0.009804743, w: 0.97234666}
+    m_Value: {x: -0.22817433, y: -0.04145198, z: 0.009742798, w: -0.9727126}
   m_Size:
-    m_Target: 11.913887
+    m_Target: 6.2405133
     speed: 2
-    m_Value: 11.913887
+    m_Value: 6.534569
   m_Ortho:
     m_Target: 0
     speed: 2
