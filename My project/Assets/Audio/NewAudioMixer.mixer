@@ -28,6 +28,39 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-2762451274456508815
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Victory musik
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 1ad4b2e0e98d9974cb4ab561ef2802c3
+  m_Children: []
+  m_Volume: 9e99f1dd1d4d0604fab9915f2c1c2add
+  m_Pitch: 6971ac25b5f86d144bc6d539ed459caa
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -1528936189366178743}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-1528936189366178743
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e84a3fb08b0e6a74da723f6e228587e7
+  m_EffectName: Attenuation
+  m_MixLevel: cb196996a208df94c97f236c21f47849
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -49,6 +82,7 @@ AudioMixerController:
     - af623b2ab861a14489c63b1ac807e039
     - 61922b62279616d498100a16bfb72b26
     - 0591924f8f5767845ae64b335703aa72
+    - 1ad4b2e0e98d9974cb4ab561ef2802c3
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -64,6 +98,7 @@ AudioMixerGroupController:
   m_Children:
   - {fileID: 5640239963321194370}
   - {fileID: 2641042189941935865}
+  - {fileID: -2762451274456508815}
   m_Volume: 087f429ab3071dc47b6666ae3f319e77
   m_Pitch: a061c1e7474ea2c4ba00dfbe870b7fc2
   m_Send: 00000000000000000000000000000000
@@ -98,6 +133,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: f8f4e33260f9b6b4dae7fce6c391a790
   m_FloatValues:
     cfecf351d294da24bbff74957ff31e4e: -8.362404
+    9e99f1dd1d4d0604fab9915f2c1c2add: -14.816608
     6167a7ffe8cfe2f40986813c8ebacfce: -8.841784
   m_TransitionOverrides: {}
 --- !u!243 &2641042189941935865
