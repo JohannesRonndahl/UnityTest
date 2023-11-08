@@ -305,11 +305,13 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Events/UnityEventOnTrigger.cs"
+"Assets/Scripts/Health.cs"
 "Assets/Scripts/Movement/ContinuousMovement.cs"
 "Assets/Scripts/Movement/GravityMovementController.cs"
 "Assets/Scripts/Movement/MovementController2D.cs"
 "Assets/Scripts/Movement/RotationController.cs"
 "Assets/Scripts/Movement/SimpleMovementControllerXZ.cs"
+"Assets/Scripts/Movement/SpelareOlikaAnim.cs"
 -langversion:9.0
 
 /deterministic
