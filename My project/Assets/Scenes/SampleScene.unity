@@ -2050,7 +2050,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 09bb3138f126a4b46935d146467373e2, type: 2}
+  - {fileID: 2100000, guid: 2923225a139bdb94cbf260c9bbdd514e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4147,6 +4147,10 @@ PrefabInstance:
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7275029968209922404, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90e57fb202302974d91d134b47de6350, type: 2}
     - target: {fileID: 7275029968432756360, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
       propertyPath: m_Name
       value: Hus
@@ -4195,5 +4199,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7275029968432756366, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90e57fb202302974d91d134b47de6350, type: 2}
+    - target: {fileID: 7275029969339914315, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90e57fb202302974d91d134b47de6350, type: 2}
+    - target: {fileID: 7275029969454799458, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1218d71bc8cd0444d84c3f6aae1a4e58, type: 3}
