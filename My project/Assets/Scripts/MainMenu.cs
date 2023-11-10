@@ -8,7 +8,8 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject PauseMenu;
-
+    public GameObject OptionsMenu;
+    public GameObject MainMenu2;
 
     public void PlayGame() 
     {
@@ -22,6 +23,19 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
         
     }
+
+    public void Options()
+    {
+        OptionsMenu.SetActive(true);
+        MainMenu2.SetActive(false);
+    }
+
+    public void back()
+    {
+        OptionsMenu.SetActive(false);
+        MainMenu2.SetActive(true);
+    }
+
 
     public void Pause() 
     {

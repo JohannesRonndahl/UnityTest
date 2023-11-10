@@ -1,10 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioSlider
     - GravityMovementController
     - Health
+    - MainMenu
     - RotationController
     - SpelareOlikaAnim
+    - UICounter
     - UnityEventOnTrigger
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.Editor.InputActionEditorWindow
@@ -41,6 +44,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -83,8 +87,39 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSlider
+    methodName: SetLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSlider
+    methodName: SetLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: Options
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: PlayGame
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSlider
+    methodName: SetLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: back
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -115,18 +150,15 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UICounter
+    methodName: AddToCounter
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UICounter
+    methodName: AddToCounter
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -151,6 +183,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: QuitGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -160,9 +195,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UICounter
+    methodName: AddToCounter
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: Pause
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: Continue
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: MainMenuMenu
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Renderer
     methodName: set_material
@@ -179,6 +223,83 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   sceneClasses:
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1692}
+    - Class: 114
+      Script: {instanceID: 2316}
+    - Class: 114
+      Script: {instanceID: 2782}
+    - Class: 114
+      Script: {instanceID: 2986}
+    - Class: 114
+      Script: {instanceID: 3294}
+    - Class: 114
+      Script: {instanceID: 4352}
+    - Class: 114
+      Script: {instanceID: 4392}
+    - Class: 114
+      Script: {instanceID: 4664}
+    - Class: 114
+      Script: {instanceID: 5332}
+    - Class: 114
+      Script: {instanceID: 5412}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 6164}
+    - Class: 114
+      Script: {instanceID: 6508}
+    - Class: 114
+      Script: {instanceID: 32900}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -198,8 +319,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -214,6 +333,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -223,43 +344,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1674}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 1678}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3962}
     - Class: 114
-      Script: {instanceID: 3944}
+      Script: {instanceID: 4352}
     - Class: 114
-      Script: {instanceID: 4372}
+      Script: {instanceID: 4682}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 5412}
     - Class: 114
-      Script: {instanceID: 4662}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 5392}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 6090}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6508}
     - Class: 114
-      Script: {instanceID: 6144}
-    - Class: 114
-      Script: {instanceID: 6488}
+      Script: {instanceID: 8062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -723,6 +842,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c91226a1641f9512340859951ef79d9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
@@ -1241,6 +1366,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6124db2a42a91af8e25fde049b3e8b2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICounter
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1287,7 +1418,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 84658153d23e598d2d423f613b67e76f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioSlider
   platform: 19
   scenePathNames:
+  - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Temp/UnityTest/Build WS3/My project.exe
+  playerPath: C:/Temp/UnityTest/Build WS4/My project.exe
